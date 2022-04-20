@@ -1,0 +1,26 @@
+[global_config]
+  borderless = True
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, MavenPluginURLHandler
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.3
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fira Code 13
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+    use_theme_colors = True
+  [[New Profile]]
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
