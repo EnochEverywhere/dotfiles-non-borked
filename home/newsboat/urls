@@ -8,7 +8,6 @@
 "query:Aus News:tags # \"AusNews\""
 "query:Twitter:tags # \"Twitter\""
 "query:Twitter People:tags # \"TwitterPeople\""
-"query:Instagram:tags # \"Instagram\""
 "query:Freddy and the 8th:tags =~ \"Youtube\" and ( title =~ \"Freddy\" or author =~ \"asdf\" or title =~ \"Immortal\" )"  "Youtube"
 "query:Sumo:tags # \"Sumo\""
 "query:Baduk:tags # \"Baduk\""
